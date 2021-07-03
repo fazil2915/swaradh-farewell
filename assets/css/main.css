@@ -90,6 +90,8 @@ input, select, textarea {
 		line-height: 1.75em;
 		overflow-x: hidden;
 		overflow-y: auto;
+	}.img{
+		width: 22em;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -383,7 +385,7 @@ input, select, textarea {
 		}
 
 			#main .item.span-1 {
-				width: 20em;
+				width: 22em;
 			}
 
 			#main .item.span-2 {
@@ -395,8 +397,9 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: #d64760;
-				background-image: url("images/overlay.png");
+			
+			  /* background-image : url("/images/farewell\ 1234.png"); */
+			    
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -409,7 +412,8 @@ input, select, textarea {
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
 				justify-content: center;
-				padding: 1em 3em;
+				width: 22em;
+				height: 14em;
 			}
 
 				#main .item.intro h1 {
@@ -526,15 +530,17 @@ input, select, textarea {
 			}
 
 				#main .item.span-1 {
-					width: 17em;
+					width: 22em;
+				
 				}
 
 				#main .item.span-2 {
-					width: 25.5em;
+					width: 22em;
+					
 				}
 
 				#main .item.span-3 {
-					width: 34em;
+					width: 22em;
 				}
 
 		}
